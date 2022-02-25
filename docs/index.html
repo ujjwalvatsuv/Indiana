@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Indiana - Tours and Adventures</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+     <!-- header -->
+
+     <header class="header" id="header">
+          <div class="container header_container">
+               <div class="logo" id="logo">
+                    <img src="./media/icons/plane_2.png" class="logo_mob">
+                    <!-- <i class="fa-solid fa-paper-plane"></i> -->
+                    <p id="logo_text">Indiana</p>
+                    <i class="fa-solid fa-bars mob" id="navicon" onclick="toggleNav()"></i>
+               </div>
+
+               <div class="nav">
+                    <ul id="nav">
+                         <li>Home</li>
+                         <li>Places</li>
+                         <li>Destinations</li>
+                         <li>Packages</li>
+                         <li>Gallery</li>
+                         <li>Testimonials</li>
+                         <li>Blogs</li>
+                    </ul>
+               </div>
+          </div>
+     </header>
+
+     <!-- banner -->
+
+     <section class="banner">
+          <div class="banner_content">
+               <div class="search">
+                    <input type="search" class="search_input" placeholder="Search Places , Packages and more...">
+                    <p class="search_icon">
+                         <i class="fas fa-search"></i>
+                    </p>
+               </div>
+          </div>
+     </section>
+
+     <!-- places section -->
+
+     <section class="places">
+          <h1 class="section_title">Featured Places</h1>
+          <div id="places_nav" class="container places_container">
+               <div class="place">
+                    <div class="place_details">
+                         <h1 class="card_title">Beautiful Beaches</h1>
+                         <button class="card_btn">View More</button>
+                    </div>
+               </div>
+
+               <div class="place">
+                    <div class="place_details">
+                         <h1 class="card_title">Wonderfull Waterfalls</h1>
+                         <button class="card_btn">View More</button>
+                    </div>
+               </div>
+
+               <div class="place">
+                    <div class="place_details">
+                         <h1 class="card_title">Breathtaking Mountains</h1>
+                         <button class="card_btn">View More</button>
+                    </div>
+               </div>
+
+               <div class="place">
+                    <div class="place_details">
+                         <h1 class="card_title">Soulfull Sunsets</h1>
+                         <button class="card_btn">View More</button>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Destinations -->
+
+     <section class="destinations">
+          <video controls class="vid" autoplay id="vid"
+          src="./media/videos/advid.mp4">
+          </video>
+
+          <div class="video_overlay">
+               <p>Dream Destinations</p>
+          </div>
+     </section>
+
+     <!-- Packages -->
+
+     <section class="packages">
+          <h1 class="section_title">Popular Picks</h1>
+          <div class="container packages_container">
+               <div class="package">
+                    <div class="package_img">
+                         <img src="https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    </div>
+
+                    <div class="package_details">
+                         <p class="package_title">Rajasthan Tour package</p>
+                         <p class="price">&#8377 12,300</p> 
+                         <div class="rating">
+                              <div class="gray_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+          
+                              <div class="yellow_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+                         </div>
+
+                         (4.3)
+
+                    </div>    
+               </div>
+
+               <div class="package">
+                    <div class="package_img">
+                         <img src="https://images.pexels.com/photos/7846561/pexels-photo-7846561.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    </div>
+
+                    <div class="package_details">
+                         <p class="package_title">Himachal Tour package</p>
+                         <p class="price">&#8377 12,300</p> 
+                         <div class="rating">
+                              <div class="gray_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+          
+                              <div class="yellow_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+                         </div>
+
+                         (3.9)
+                         
+                    </div>    
+               </div>
+
+               <div class="package">
+                    <div class="package_img">
+                         <img src="https://images.pexels.com/photos/3370598/pexels-photo-3370598.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    </div>
+
+                    <div class="package_details">
+                         <p class="package_title">Kerela Tour package</p>
+                         <p class="price">&#8377 12,300</p> 
+                         <div class="rating">
+                              <div class="gray_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+          
+                              <div class="yellow_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+                         </div>
+
+                         (3.6)
+                         
+                    </div>    
+               </div>
+
+               <div class="package">
+                    <div class="package_img">
+                         <img src="https://images.pexels.com/photos/3974089/pexels-photo-3974089.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    </div>
+
+                    <div class="package_details">
+                         <p class="package_title">Kashmir Tour package</p>
+                         <p class="price">&#8377 12,300</p> 
+                         <div class="rating">
+                              <div class="gray_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+          
+                              <div class="yellow_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+                         </div>
+
+                         (4.7)
+                         
+                    </div>    
+               </div>
+
+               <div class="package">
+                    <div class="package_img">
+                         <img src="https://images.pexels.com/photos/9796144/pexels-photo-9796144.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    </div>
+
+                    <div class="package_details">
+                         <p class="package_title">Odhisha Tour package</p>
+                         <p class="price">&#8377 12,300</p> 
+                         <div class="rating">
+                              <div class="gray_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+          
+                              <div class="yellow_star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                              </div>
+                         </div>
+
+                         (4.4)
+                         
+                    </div>    
+               </div>
+          </div>
+     </section>
+
+<!--   GALLERY    -->
+  
+     
+     <section class="gallery">
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+          
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="gall">
+               <div class="gall_overlay">
+                    <div class="cut"></div>
+                    
+                    <div class="gall_details">
+                         <p>Lorem Ipsum</p>
+                         <button class="btn">View</button>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Testimonials -->
+     
+     <section class="testimonials">
+          <h1 class="section_title">Testimonials</h1>
+
+          <div class="container testimonial_container">
+               <div class="user_picture">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+               </div>
+
+               <div class="testimonial">
+                    <h1 class="section_title">David Warner</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum culpa officia modi sed ut a blanditiis ex natus, atque dicta, labore pariatur cupiditate veritatis. Minus mollitia omnis quisquam asperiores
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cumque voluptas, totam ipsam officiis distinctio modi minima ullam. Earum exercitationem corporis.
+                    </p>
+
+                    <div class="user_gallery">
+
+                         <div class="user_slider">
+                              <img src="https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                         <img src="https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                         <img src="https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                         <img src="https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                         <img src="https://images.pexels.com/photos/128234/pexels-photo-128234.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                         </div>
+                         
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section class="blogs">
+          <h1 class="section_title">Recent Blogs</h1>
+          <div class="blogs_container">
+  
+              <div class="blog"> 
+                  <div class="blog_img">
+                      <img class="blog_image" src="https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                  </div> 
+                  <div class="blog_details">
+                      <h2>Mountains are Beautiful</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur dolorem.</p>
+                      <button>Read More</button>
+                  </div>
+              </div>
+  
+              <div class="blog">
+                  <div class="blog_img">
+                      <img class="blog_image" src="https://images.pexels.com/photos/4609731/pexels-photo-4609731.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                  </div>
+                  <div class="blog_details">
+                      <h2>Keep Beaches Clean</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur
+                          dolorem.</p>
+                      <button>Read More</button>
+                  </div>
+              </div>
+  
+              <div class="blog">
+                  <div class="blog_img">
+                      <img class="blog_image" src="https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" >
+                  </div>
+                  <div class="blog_details">
+                      <h2>Stargazing Destinations</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur
+                          dolorem.</p>
+                      <button>Read More</button>
+                  </div>
+              </div>
+  
+              <div class="blog">
+                  <div class="blog_img">
+                      <img class="blog_image" src="https://images.pexels.com/photos/358589/pexels-photo-358589.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                  </div>
+                  <div class="blog_details">
+                      <h2>Norway Tips and Tricks</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur
+                          dolorem.</p>
+                      <button>Read More</button>
+                  </div>
+              </div>
+              
+  
+          </div>
+      </section>
+
+      <section class="footer">
+          <div class="footer_container">
+    
+              <div class="quick_links">
+                  <h4>Quick Links</h4>
+                  <ul>
+                      <li>Home</li>
+                      <li>Places</li>
+                      <li>Packages</li>
+                      <li>Destinations</li>
+                      <li>Gallery</li>
+                      <li>Testimonials</li>
+                      <li>Blogs</li>
+                  </ul>
+              </div>
+    
+            <div class="quick_links">
+                <h4>Destinations</h4>
+                <ul>
+                    <li>Goa</li>
+                    <li>Amritsar</li>
+                    <li>Rajasthan</li>
+                    <li>Meghalaya</li>
+                    <li>Kashmir</li>
+                    <li>Ladakh</li>
+                    <li>Kerala</li>
+                </ul>
+            </div>
+    
+            <div class="quick_links">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>+91 9348651298</li>
+                    <li>+91 8586417963</li>
+                    <li>G-67, Block A, Meer Vihar, New Delhi</li>    
+                </ul>
+            </div>
+    
+            <div class="social_media_links">
+                <div class="links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="links">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+    
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448878.1382014377!2d76.77833897109376!3d28.483748860581507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d7255df5483%3A0x6b0472e8732ddfc6!2sIndian%20Tour%20And%20Travel!5e0!3m2!1sen!2sin!4v1645107526398!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         
+          </div>
+      </section>
+
+      <script>
+           window.onscroll=function(){
+               console.log(pageYOffset)
+               if(window.pageYOffset>=95){
+                    document.getElementById("header").style.backgroundColor="rgb(56 55 55)";
+                    document.getElementById("header").style.height="60px";
+                    document.getElementById("nav").style.color="white";
+                    document.getElementById("logo_text").style.color="white";
+                    document.getElementById("header").style.boxShadow="0px 1px 1px gray";
+               }
+
+               else{
+                    document.getElementById("header").style.backgroundColor="transparent";
+                    document.getElementById("header").style.height="85px";
+                    document.getElementById("nav").style.color="rgb(32, 32, 32)";
+                    document.getElementById("logo_text").style.color="rgb(32, 32, 32)";
+                    document.getElementById("header").style.boxShadow="none";
+               }
+               
+               if(window.pageYOffset>=800 && window.pageYOffset>=1450){
+                    document.getElementById("vid").play();
+               }
+
+               else{
+                    document.getElementById("vid").pause();
+               }
+          }
+
+          let navStatus = false;
+
+      function toggleNav(){
+          if (navStatus === false) {
+            document.getElementById("nav").style.height = "210px";
+            document.getElementById("nav").style.padding = "10px 0px";
+            document.getElementById("navicon").classList.remove("fa-bars");
+            document.getElementById("navicon").classList.add("fa-xmark");
+            navStatus = true;
+          } 
+          
+          else {
+            document.getElementById("nav").style.height = "0px";
+            document.getElementById("nav").style.padding = "0px";
+            document.getElementById("navicon").classList.remove("fa-xmark");
+            document.getElementById("navicon").classList.add("fa-bars");
+            navStatus = false;
+          }
+     }
+      
+      </script>
+</body>
+</html>
+
